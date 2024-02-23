@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main_body{
+    background-color: #151278;
+}
+.info_play{
+    color: #67B6FF;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 110px;
+}
+.back{
+    color: white;
+    font-size: 30px;
+    background-color: pink;
+    border-radius: 30px;
+    padding: 15px;
+}
+.info_item{
+    padding: 15px 80px;
+    color: black;
+    background-color: #fff;
+    gap: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    h3{
+        color: blue;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    h2{
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+}
+.link_btn{
+    color: #fff;
+    padding: 50px 80px;
+    background-color: #2463FF;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.btn_passkeys_item{
+    padding: 10px;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.passkeys_shadow{
+    width: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 30px;
+}
+.hidden1{
+    display: none;
+}
+.modal{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 250px;
+    margin-right: 250px;
+    margin-left: 350px;
+    margin-bottom: 250px;
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #67B6FF;
+    align-items: flex-start;
+}
